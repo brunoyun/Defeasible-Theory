@@ -37,7 +37,8 @@ def generate_arguments(ruleset,existing_arguments=set()):
 def generate_AF(ruleset):
   """Generates an AF from a ruleset using forward chaining."""
   args=generate_arguments(ruleset)
-  return (args,generate_defeats(args))
+  #return (args,generate_defeats(args))
+  return (args,)
 
 
 def make_single_argument(arg_tuple,toprule):

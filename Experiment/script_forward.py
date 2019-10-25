@@ -11,11 +11,11 @@ rules=read_file(sys.argv[1])
 af2=generate_AFF(rules)
 print("arguments: ",len(af2[0]))
 
-nbdef = 0
-for i in af2[1][0]:
-    nbdef+= len(af2[1][0][i])
-
-print("defeats: ",nbdef)
+# nbdef = 0
+# for i in af2[1][0]:
+#     nbdef+= len(af2[1][0][i])
+#
+# print("defeats: ",nbdef)
 
 """
 
